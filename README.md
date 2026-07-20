@@ -80,14 +80,14 @@ Persistent state and recall across sessions, built for LLMs.
 Let agents act inside third-party systems, safely.
 
 - [Arcade](https://arcade.dev) — Handles OAuth and authenticated tool calls so agents can act as a user across services.
-- [Composio](https://composio.dev) — Managed integrations and tool-calling for 250+ apps with built-in auth for agents.
+- [Composio](https://composio.dev) — Managed integrations and tool-calling for 1,000+ apps (500+ pre-built toolkits) with built-in delegated auth for agents.
 - [Toolhouse](https://toolhouse.ai) — Hosted tools and infrastructure agents can call without custom integration work.
 
 ## Payments & Commerce
 
 Infrastructure for agents that transact.
 
-- [Stripe Agent Toolkit](https://github.com/stripe/agent-toolkit) — Lets agents create payments, issue cards, and manage billing through Stripe.
+- [Stripe Agent Toolkit](https://github.com/stripe/ai) — Lets agents create payments, issue cards, and manage billing through Stripe.
 - [Skyfire](https://skyfire.xyz) — Payment and identity rails purpose-built for autonomous agent-to-agent and agent-to-service transactions.
 - [Payman](https://paymanai.com) — API for agents to send and request real-world payments with human approval controls.
 

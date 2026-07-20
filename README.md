@@ -82,6 +82,7 @@ Tools an agent invokes while reading, editing, searching, or running code. Exclu
 Store, transform, and serve files and assets through an agent-callable interface.
 
 - [PixelVault](https://pixelvault.dev) - Agent-first image hosting API with an MCP server and installable agent skill: upload, batch, transform, sign, and CDN-deliver images programmatically. *(Disclosure: built by this list's maintainers; see [CONTRIBUTING.md](CONTRIBUTING.md#affiliated-entries).)*
+- [Fastio](https://fast.io/storage-for-agents/) - Cloud storage built for agents, with an MCP server and installable skill for file upload, retrieval, versioning, and semantic search.
 
 ## Memory
 

@@ -27,6 +27,7 @@ A tool earns a spot when it does most of these:
 - [Web Search & Retrieval](#web-search--retrieval)
 - [Web Scraping & Browsing](#web-scraping--browsing)
 - [Code Execution & Sandboxes](#code-execution--sandboxes)
+- [Code & Developer Tools](#code--developer-tools)
 - [Memory](#memory)
 - [Auth & Tool-Calling Infrastructure](#auth--tool-calling-infrastructure)
 - [Payments & Commerce](#payments--commerce)
@@ -67,6 +68,16 @@ Safe, ephemeral compute for agent-generated code.
 - [Modal](https://modal.com) — Serverless compute for running arbitrary code and functions on demand, popular as an agent execution backend.
 - [Cloudflare Sandbox SDK](https://github.com/cloudflare/sandbox-sdk) — Run untrusted, agent-generated code in isolated containers on Cloudflare's edge.
 
+## Code & Developer Tools
+
+Tools an agent invokes while reading, editing, searching, or running code. Excludes AI IDEs and coding agents themselves (Cursor, Claude Code, Devin) — those are agents, not tools an agent reaches for.
+
+- [Morph](https://morphllm.com) — Fast apply model that merges an LLM's suggested edits into source files at thousands of tokens per second.
+- [Relace](https://relace.ai) — Fast apply and code-editing models plus codebase retrieval, built for AI coding agents.
+- [Greptile](https://greptile.com) — Codebase understanding and AI code review that answers questions and reviews PRs over a whole repository via API.
+- [GitHub MCP Server](https://github.com/github/github-mcp-server) — Official MCP server exposing GitHub issues, PRs, code, and Actions as agent tool calls.
+- [Sourcegraph](https://sourcegraph.com) — Code search and navigation across large codebases, exposed through APIs and an MCP server for agents to query.
+
 ## Memory
 
 Persistent state and recall across sessions, built for LLMs.
@@ -96,7 +107,7 @@ Infrastructure for agents that transact.
 Trace, debug, and score how agents use their tools.
 
 - [Langfuse](https://langfuse.com) — Open-source tracing, evals, and analytics for LLM and agent applications.
-- [Helicone](https://helicone.ai) — Observability proxy that logs, caches, and monitors agent LLM/tool calls with one header.
+- [Helicone](https://helicone.ai) — Observability proxy that logs, caches, and monitors agent LLM/tool calls with one header. *(Maintenance mode after Mintlify acquisition, 2026.)*
 - [Braintrust](https://braintrust.dev) — Evaluation and monitoring platform for iterating on agent and LLM behavior.
 
 ## Contributing

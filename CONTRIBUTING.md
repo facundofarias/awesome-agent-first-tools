@@ -26,6 +26,7 @@ A tool should satisfy most of these:
 - Autonomous agents / copilots (the *agents* themselves).
 - Exhaustive MCP server catalogs — link to a dedicated directory instead.
 - Prompt libraries, model providers, and generic ML tooling.
+- **AI IDEs and coding agents** (Cursor, Windsurf, Claude Code, Devin) — these *are* agents/copilots, not tools an agent calls. The Code & Developer Tools category is only for things an agent invokes at runtime to read, edit, search, or run code (e.g. fast-apply models, code-search APIs, agent-callable VCS).
 
 ## How to submit
 

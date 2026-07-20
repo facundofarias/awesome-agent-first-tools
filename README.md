@@ -29,6 +29,7 @@ This list is deliberately narrow. If a project helps you *build* an agent, it be
 - [Storage & Media](#storage--media)
 - [Memory](#memory)
 - [Auth & Tool-Calling Infrastructure](#auth--tool-calling-infrastructure)
+- [Communication](#communication)
 - [Payments & Commerce](#payments--commerce)
 - [Observability & Evaluation](#observability--evaluation)
 
@@ -99,6 +100,12 @@ Let agents act inside third-party systems, safely.
 - [Arcade](https://arcade.dev) - Handles OAuth and authenticated tool calls so agents can act as a user across services.
 - [Composio](https://composio.dev) - Managed integrations and tool-calling for 1,000+ apps (500+ pre-built toolkits) with built-in delegated auth for agents.
 - [Toolhouse](https://toolhouse.ai) - Hosted tools and infrastructure agents can call without custom integration work.
+
+## Communication
+
+Give agents their own channels — email, messaging, voice — to send and receive on their own.
+
+- [AgentMail](https://agentmail.to) - API-first email provider for agents: programmatic inboxes, an MCP server, SDKs, and IMAP/SMTP so agents can send, receive, and manage email autonomously.
 
 ## Payments & Commerce
 

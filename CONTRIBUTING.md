@@ -37,6 +37,10 @@ A tool should satisfy most of these:
 4. Keep entries alphabetical within a category is *not* required — order by usefulness.
 5. In your PR description, state which inclusion criteria the tool meets and who its primary consumer is.
 
+## Affiliated entries
+
+If you have a financial or maintainer relationship with a tool you're submitting, **disclose it** in the PR and add a disclosure note to the entry. Affiliated tools are held to the *same* inclusion criteria as everything else — no exceptions in either direction. Self-promotion that can't stand on the criteria will be rejected; a genuinely agent-first tool won't be excluded just because its author submitted it, as long as the affiliation is transparent.
+
 ## Style
 
 - One sentence per entry, ending with a period.

@@ -28,6 +28,7 @@ A tool earns a spot when it does most of these:
 - [Web Scraping & Browsing](#web-scraping--browsing)
 - [Code Execution & Sandboxes](#code-execution--sandboxes)
 - [Code & Developer Tools](#code--developer-tools)
+- [Storage & Media](#storage--media)
 - [Memory](#memory)
 - [Auth & Tool-Calling Infrastructure](#auth--tool-calling-infrastructure)
 - [Payments & Commerce](#payments--commerce)
@@ -77,6 +78,14 @@ Tools an agent invokes while reading, editing, searching, or running code. Exclu
 - [Greptile](https://greptile.com) — Codebase understanding and AI code review that answers questions and reviews PRs over a whole repository via API.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) — Official MCP server exposing GitHub issues, PRs, code, and Actions as agent tool calls.
 - [Sourcegraph](https://sourcegraph.com) — Code search and navigation across large codebases, exposed through APIs and an MCP server for agents to query.
+
+## Storage & Media
+
+Store, transform, and serve files and assets through an agent-callable interface.
+
+- [PixelVault](https://pixelvault.dev) — Agent-first image hosting API with an MCP server and installable agent skill: upload, batch, transform, sign, and CDN-deliver images programmatically. [^disclosure]
+
+[^disclosure]: Disclosure: PixelVault is built by the maintainers of this list. It is included on the same criteria as every other entry (see [CONTRIBUTING.md](CONTRIBUTING.md#affiliated-entries)).
 
 ## Memory
 

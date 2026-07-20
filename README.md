@@ -106,6 +106,8 @@ Let agents act inside third-party systems, safely.
 Give agents their own channels — email, messaging, voice — to send and receive on their own.
 
 - [AgentMail](https://agentmail.to) - API-first email provider for agents: programmatic inboxes, an MCP server, SDKs, and IMAP/SMTP so agents can send, receive, and manage email autonomously.
+- [AgentPhone](https://agentphone.ai) - Gives agents their own US/Canada phone number for voice and SMS via an MCP server, SDKs, and REST, so they can call and text without a human in the loop.
+- [AgentCall](https://agentcall.co) - Phone-number API for agents with SMS, OTP auto-extraction, and multilingual AI voice, exposed as a hosted MCP server and REST API.
 
 ## Payments & Commerce
 

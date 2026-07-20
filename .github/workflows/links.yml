@@ -1,0 +1,44 @@
+name: Links
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Weekly, Mondays 08:00 UTC — catches link rot over time.
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write # allow the scheduled run to open an issue on failure
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Cache lychee results so PRs only re-check changed/expired links.
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: "--cache --max-cache-age 1d --verbose --no-progress ./README.md ./CONTRIBUTING.md"
+          fail: true # non-zero exit if any link is broken
+
+      # On the weekly schedule, file an issue instead of a silent red X.
+      - name: Open issue on broken links
+        if: failure() && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Broken links detected by scheduled check"
+          content-filepath: ./lychee/out.md
+          labels: broken-links, automated

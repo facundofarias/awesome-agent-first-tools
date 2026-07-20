@@ -1,0 +1,26 @@
+# lychee link-checker config — https://github.com/lycheeverse/lychee
+# Auto-detected when lychee runs in the repo root.
+
+# Retry transient failures before giving up.
+max_retries = 3
+retry_wait_time = 2
+timeout = 20
+
+# Follow redirects (many entries use canonical URLs that 301 elsewhere).
+max_redirects = 10
+
+# Present as a normal browser — reduces false 403s from bot protection.
+user_agent = "Mozilla/5.0 (compatible; awesome-agent-first-tools link checker)"
+
+# Accepted status codes.
+#   200 = OK
+#   429 = rate limited (the link is alive; CI just got throttled)
+#   403 = commonly returned by Cloudflare/WAF-protected product sites to bots
+# Tradeoff: accepting 403 avoids false failures but can mask a genuinely
+# broken link that happens to 403. Tighten to "200,429" if you'd rather
+# catch those and maintain an exclude list below instead.
+accept = ["200", "429", "403"]
+
+# Known false-positives / sites to skip entirely. Add regexes here if a
+# specific host keeps failing CI despite being live.
+exclude = []

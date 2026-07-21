@@ -40,6 +40,7 @@ The plumbing that makes any tool agent-consumable.
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io) - Open standard for connecting agents to tools and data through a uniform client/server interface.
 - [llms.txt](https://llmstxt.org) - A proposed standard for websites to expose an LLM-friendly, markdown summary of their content at `/llms.txt`.
 - [A2A (Agent2Agent)](https://a2a-protocol.org) - Open protocol for agents from different vendors to discover each other's capabilities and collaborate.
+- [x402](https://x402.org) - Open protocol that revives the HTTP 402 "Payment Required" status code for agent-native payments: agents pay per request in stablecoins, no accounts or human in the loop.
 
 ## Web Search & Retrieval
 

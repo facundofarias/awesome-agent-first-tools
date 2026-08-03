@@ -117,6 +117,7 @@ Infrastructure for agents that transact.
 - [Stripe Agent Toolkit](https://github.com/stripe/ai) - Lets agents create payments, issue cards, and manage billing through Stripe.
 - [Skyfire](https://skyfire.xyz) - Payment and identity rails purpose-built for autonomous agent-to-agent and agent-to-service transactions.
 - [Payman](https://paymanai.com) - API for agents to send and request real-world payments with human approval controls.
+- [minia2a](https://minia2a.uk) - x402 marketplace where AI agents discover, trial, and pay for 180+ API services with USDC micropayments on Base. Includes MCP server, free credits, and agent-only discovery.
 
 ## Observability & Evaluation
 

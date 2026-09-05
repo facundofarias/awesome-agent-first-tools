@@ -78,6 +78,7 @@ Tools an agent invokes while reading, editing, searching, or running code. Exclu
 - [Greptile](https://greptile.com) - Codebase understanding and AI code review that answers questions and reviews PRs over a whole repository via API.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official MCP server exposing GitHub issues, PRs, code, and Actions as agent tool calls.
 - [Sourcegraph](https://sourcegraph.com) - Code search and navigation across large codebases, exposed through APIs and an MCP server for agents to query.
+- [Agent QA MCP](https://github.com/vostride/agent-qa) - Source-available MCP server that agents call to author and queue web, Android, and iOS application tests and inspect structured results (contributor affiliated with Vostride/Agent QA).
 
 ## Storage & Media
 

@@ -111,6 +111,7 @@ Give agents their own channels — email, messaging, voice — to send and recei
 - [AgentCall](https://agentcall.co) - Phone-number API for agents with SMS, OTP auto-extraction, and multilingual AI voice, exposed as a hosted MCP server and REST API.
 
 ## Payments & Commerce
+- [openai-agents-nano](https://github.com/PANDeveloper001/openai-agents-nano-x402) - Lets an OpenAI Agents SDK agent pay x402-priced HTTP APIs instantly and feeless in self-custodied Nano (XNO).
 
 Infrastructure for agents that transact.
 

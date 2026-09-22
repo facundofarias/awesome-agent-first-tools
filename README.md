@@ -117,6 +117,7 @@ Infrastructure for agents that transact.
 - [Stripe Agent Toolkit](https://github.com/stripe/ai) - Lets agents create payments, issue cards, and manage billing through Stripe.
 - [Skyfire](https://skyfire.xyz) - Payment and identity rails purpose-built for autonomous agent-to-agent and agent-to-service transactions.
 - [Payman](https://paymanai.com) - API for agents to send and request real-world payments with human approval controls.
+- [Vend](https://extract.paypercall.dev) - Autonomous pay-per-call API marketplace for AI agents. Live endpoints (web search, web extraction, domain/geo intel, link checking) settle each call in Nano (XNO) via x402. No accounts, no API keys, no subscriptions; the price is known before spend (HTTP 402 returns price_xno and a replayable settlement block hash).
 
 ## Observability & Evaluation
 

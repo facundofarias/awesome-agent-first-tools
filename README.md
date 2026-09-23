@@ -117,6 +117,7 @@ Infrastructure for agents that transact.
 - [Stripe Agent Toolkit](https://github.com/stripe/ai) - Lets agents create payments, issue cards, and manage billing through Stripe.
 - [Skyfire](https://skyfire.xyz) - Payment and identity rails purpose-built for autonomous agent-to-agent and agent-to-service transactions.
 - [Payman](https://paymanai.com) - API for agents to send and request real-world payments with human approval controls.
+- [feeless402](https://feeless402.com) - Live A2A pricing agent an agent calls at runtime to quote a given x402 pay-per-call API URL across every rail the server offers, showing the feeless Nano (XNO) rail's true metered price.
 
 ## Observability & Evaluation
 

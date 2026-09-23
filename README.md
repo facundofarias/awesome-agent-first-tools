@@ -49,6 +49,7 @@ Search APIs that return LLM-ready results instead of a page of blue links.
 - [Exa](https://exa.ai) - Neural/embeddings search API built for agents, with content retrieval and similarity search.
 - [Tavily](https://tavily.com) - Search API purpose-built for LLMs and RAG, returning concise, sourced answers.
 - [Linkup](https://linkup.so) - Search API that returns grounded answers with citations from the live web.
+- [Statsnet](https://github.com/usenetstate/statsnet-mcp) - Background check any company in the world: registration, executives, courts and finances. Remote MCP: https://statsnet.co/mcp
 - [Jina Reader](https://jina.ai/reader) - Prepend `r.jina.ai/` to any URL to get clean, LLM-ready markdown of the page.
 
 ## Web Scraping & Browsing

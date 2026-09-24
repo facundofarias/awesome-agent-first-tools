@@ -85,6 +85,7 @@ Store, transform, and serve files and assets through an agent-callable interface
 
 - [PixelVault](https://pixelvault.dev) - Agent-first image hosting API with an MCP server and installable agent skill: upload, batch, transform, sign, and CDN-deliver images programmatically. *(Disclosure: built by this list's maintainers; see [CONTRIBUTING.md](CONTRIBUTING.md#affiliated-entries).)*
 - [Fastio](https://fast.io/storage-for-agents/) - Cloud storage built for agents, with an MCP server and installable skill for file upload, retrieval, versioning, and semantic search.
+- [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) - Local-first TypeScript CLI and MCP video toolkit that coding agents call to compose, edit, and assemble videos from editable `plan.json` timelines. *(Disclosure: submitted by an Orkas project contributor.)*
 
 ## Memory
 

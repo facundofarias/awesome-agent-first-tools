@@ -117,6 +117,7 @@ Infrastructure for agents that transact.
 - [Stripe Agent Toolkit](https://github.com/stripe/ai) - Lets agents create payments, issue cards, and manage billing through Stripe.
 - [Skyfire](https://skyfire.xyz) - Payment and identity rails purpose-built for autonomous agent-to-agent and agent-to-service transactions.
 - [Payman](https://paymanai.com) - API for agents to send and request real-world payments with human approval controls.
+- [Feeless402](https://feeless402.com) - Client and quote API for agents to transact over x402 (HTTP 402) with a feeless Nano (XNO) settlement rail alongside USDC and card.
 
 ## Observability & Evaluation
 

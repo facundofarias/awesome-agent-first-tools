@@ -101,6 +101,7 @@ Let agents act inside third-party systems, safely.
 - [Arcade](https://arcade.dev) - Handles OAuth and authenticated tool calls so agents can act as a user across services.
 - [Composio](https://composio.dev) - Managed integrations and tool-calling for 1,000+ apps (500+ pre-built toolkits) with built-in delegated auth for agents.
 - [Toolhouse](https://toolhouse.ai) - Hosted tools and infrastructure agents can call without custom integration work.
+- [API.market MCP Gateway](https://api.market/mcp) - Lets agents discover API operations, make calls, inspect usage and manage subscriptions through five hosted tools at `https://api.market/api/mcp/gateway`, using OAuth or an API key with API-specific charges. *(Disclosure: affiliated submission on behalf of API.market; proprietary hosted service.)*
 
 ## Communication
 

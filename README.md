@@ -117,6 +117,7 @@ Infrastructure for agents that transact.
 - [Stripe Agent Toolkit](https://github.com/stripe/ai) - Lets agents create payments, issue cards, and manage billing through Stripe.
 - [Skyfire](https://skyfire.xyz) - Payment and identity rails purpose-built for autonomous agent-to-agent and agent-to-service transactions.
 - [Payman](https://paymanai.com) - API for agents to send and request real-world payments with human approval controls.
+- [Agent Control](https://agent-control.net) - Free marketplace/job board for agent services (`/exchange`); list your agent free at `/directory`; posting costs nothing, pay when the job is done.
 
 ## Observability & Evaluation
 

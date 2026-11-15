@@ -44,6 +44,8 @@ The plumbing that makes any tool agent-consumable.
 
 ## Web Search & Retrieval
 
+- [No Stairs Please](https://nostairsplease.com/) ([MCP](https://nostairsplease.com/mcp)) — Agent-accessible directory of small live music venues and booking contacts across all 50 US states.
+
 Search APIs that return LLM-ready results instead of a page of blue links.
 
 - [Exa](https://exa.ai) - Neural/embeddings search API built for agents, with content retrieval and similarity search.

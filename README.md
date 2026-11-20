@@ -110,6 +110,8 @@ Give agents their own channels — email, messaging, voice — to send and recei
 - [AgentPhone](https://agentphone.ai) - Gives agents their own US/Canada phone number for voice and SMS via an MCP server, SDKs, and REST, so they can call and text without a human in the loop.
 - [AgentCall](https://agentcall.co) - Phone-number API for agents with SMS, OTP auto-extraction, and multilingual AI voice, exposed as a hosted MCP server and REST API.
 
+- [FairValid](https://fairvalid.com/en/help/mcp) — Let agents verify email addresses and find verified work contacts through an authenticated hosted MCP endpoint. *(Affiliation: submitted by the FairValid maker with AI assistance.)*
+
 ## Payments & Commerce
 
 Infrastructure for agents that transact.

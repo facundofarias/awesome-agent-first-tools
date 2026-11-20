@@ -50,6 +50,7 @@ Search APIs that return LLM-ready results instead of a page of blue links.
 - [Tavily](https://tavily.com) - Search API purpose-built for LLMs and RAG, returning concise, sourced answers.
 - [Linkup](https://linkup.so) - Search API that returns grounded answers with citations from the live web.
 - [Jina Reader](https://jina.ai/reader) - Prepend `r.jina.ai/` to any URL to get clean, LLM-ready markdown of the page.
+- [Datacircle](https://datacircle.dev) - Find the best GTM APIs: an open API with no key, [api.datacircle.dev/v1](https://api.datacircle.dev/v1), and an MCP server benchmarking them.
 
 ## Web Scraping & Browsing
 

@@ -50,6 +50,7 @@ Search APIs that return LLM-ready results instead of a page of blue links.
 - [Tavily](https://tavily.com) - Search API purpose-built for LLMs and RAG, returning concise, sourced answers.
 - [Linkup](https://linkup.so) - Search API that returns grounded answers with citations from the live web.
 - [Jina Reader](https://jina.ai/reader) - Prepend `r.jina.ai/` to any URL to get clean, LLM-ready markdown of the page.
+- [Desearch](https://desearch.ai) - Search API and MCP server that agents call to search the live web and social platforms, find people and companies, and extract clean pages. *(Disclosure: submitted by the Desearch team.)*
 
 ## Web Scraping & Browsing
 
